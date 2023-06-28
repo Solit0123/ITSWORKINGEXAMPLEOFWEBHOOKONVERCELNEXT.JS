@@ -14,7 +14,7 @@ const cors = Cors({
     allowMethods: ['POST','GET', 'HEAD'],
   });
 // const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET_KEY;
-const webhookSecret = 'whsec_OdU0XDvA1Xp00LltoMDuzvSevIjNGWbM';
+const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET_KEY;
 //this is for testing the NGOK local tunnel. without having to deploy.
 
 
